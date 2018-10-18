@@ -23,7 +23,7 @@ data "aws_iam_policy_document" "wal_e_warehouse_writer" {
       "s3:GetBucketLocation",
     ]
 
-    # In theory  should work but it doesn't so use * instead
+    # In theory referencing the bucket ARN should work but it doesn't so use * instead
     resources = [
       "arn:aws:s3:::*",
     ]
