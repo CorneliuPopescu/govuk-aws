@@ -1,8 +1,8 @@
-## Project: wal-e-primary-bucket
+## Project: wal-e-transition-bucket
 
 This creates an s3 bucket
 
-wal-e-primary: The bucket that will hold database backups
+wal-e-transition: The bucket that will hold database backups
 
 
 
@@ -21,5 +21,5 @@ wal-e-primary: The bucket that will hold database backups
 
 | Name | Description |
 |------|-------------|
-| write_wal_e_primary_policy_arn | ARN of the write wal_e_primary-bucket policy |
+| write_wal_e_transition_policy_arn | ARN of the write wal_e_transition-bucket policy |
 
